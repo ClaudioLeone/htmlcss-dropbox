@@ -38,6 +38,11 @@ body{
     display: flex;
 }
 
+.central-sect-container{
+    width: 50%;
+    margin: 0 auto;
+}
+
 /* CLASSES  */
 .left-nav{
     /* debug */
@@ -79,6 +84,11 @@ body{
     border: none;
 }
 
+.jumbotron{
+    background-color: #af4d61;
+    margin-bottom: 7rem;
+}
+
 .jumbo-btn{
     font-size: 0.7rem;
     color: white;
@@ -91,10 +101,6 @@ body{
 .jumbo-paragraph{
     font-size: 0.85rem;
     justify-content: flex-start;
-}
-
-.jumbotron{
-    background-color: #af4d61;
 }
 
 .jumbo-container{
@@ -124,4 +130,18 @@ body{
 .icon{
     font-size: 2.5rem;
     /* justify-self: flex-end; */
+}
+
+/* .plan-title-section{
+
+} */
+
+.plan-title{
+    margin-bottom: 50px;
+}
+
+.plan-list{
+    margin-bottom: 40px;
+    gap: 50px;
+    list-style-type: none;
 }
