@@ -50,25 +50,28 @@ body{
 
 .left-nav{
     /* debug */
-    height: 50px;
-    width: 50%;
     background-color: #4ef154;
+    height: 50px;
+
+    width: 50%;
 }
 
 .right-nav{
     /* debug */
-    height: 50px;
-    width: 50%;
     background-color: #4EC5F1;
+    height: 50px;
+
+    width: 50%;
     justify-content: flex-end;
 }
 
 .logo{
     /* debug */
-    display: inline-block;
-    height: 50px;
-    width: 10%;
     background-color: #808080;
+    height: 50px;
+
+    display: inline-block;
+    width: 10%;
 }
 
 .list{
@@ -89,7 +92,9 @@ body{
 }
 
 .jumbotron{
+    /* debug */
     background-color: #af4d61;
+
     margin-bottom: 7rem;
 }
 
@@ -97,7 +102,7 @@ body{
     font-size: 0.7rem;
     color: white;
     background-color: #6054eb;
-    width: 40%;
+    width: 70%;
     padding: 10px 5px;
     border: none;
 }
@@ -154,7 +159,7 @@ body{
 .businessplan-row{
     justify-content: space-between;
     width: 100%;
-    
+    margin-bottom: 15px;
 }
 
 .col{
@@ -167,7 +172,9 @@ body{
 }
 
 .col-title{
+    /* debug */
     background-color:darkorange;
+
     padding: 15px 0;
     text-align: center;
 }
@@ -178,12 +185,14 @@ body{
 }
 
 .col-top-sect{
+    /* debug */
     background-color: blueviolet;
+
     font-size: 1.5rem;
 }
 
 .col-plan-name{
-    font-size: 2.5rem;
+    font-size: 1.3rem;
 }
 
 .plan-time{
@@ -191,13 +200,42 @@ body{
 }
 
 .col-cntr-sect{
+    /* debug */
     background-color:deeppink;
+
     display: flex;
     flex-direction: column;
 }
 
 .col-bottom-sect{
+    /* debug */
     background-color:darkcyan;
+
     display: flex;
     flex-direction: column;
+}
+
+.businessplan-2ndrow{
+    /* debug */
+    background-color: lime;
+    width: 100%;
+    justify-content: center;
+}
+
+.bottom-col-title{
+    /* debug */
+    background-color:darkorange;
+
+    padding: 15px 0;
+    text-align: center;
+}
+
+.bottom-col{
+    /* debug */
+    /* background-color:darkorange; */
+
+}
+
+.bottom-col-sx{
+    width: 60%;
 }
