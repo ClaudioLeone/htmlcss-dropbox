@@ -54,6 +54,10 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+footer{
+    background-color: black;
+}
+
 /* UTILITY */
 .flex{
     display: flex;
@@ -62,6 +66,10 @@ body{
 .central-sect-container{
     width: 50%;
     margin: 0 auto;
+}
+
+.title-size{
+    font-size: 1.3rem;
 }
 
 /* CLASSES  */
@@ -166,10 +174,10 @@ body{
 
 } */
 
-.plan-title{
-    margin-bottom: 50px;
+/* .plan-title{
+    margin-bottom: 30px;
     font-size: 1.8rem;
-}
+} */
 
 .plan-list{
     margin-bottom: 40px;
@@ -213,7 +221,7 @@ body{
 }
 
 .col-plan-name{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .plan-time{
@@ -299,9 +307,9 @@ body{
     flex-direction: column;
 }
 
-/* .bottom-sect-container{
-
-} */
+.bottom-sect-container{
+    margin-top: 80px;
+}
 
 .enterprises-quad{
     width: calc(100% / 2);
@@ -321,4 +329,71 @@ body{
 
 .central-quad-text{
     margin: 20px 0;
+}
+
+.trial-sect{
+    background-color:cornflowerblue ;
+}
+
+.trial-container{
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 50px;
+    padding: 50px 0;
+}
+
+.trial-btn{
+    background-color: white;
+    border: 1px solid grey;
+    padding: 5px 30px;
+}
+
+.question-row{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.questions-container{
+    width: 60%;
+    margin: 0 auto 50px;
+}
+
+.question{
+    padding: 15px 0;
+}
+
+.footer-container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+    color: white;
+    justify-content: space-between;
+}
+
+.footer-col{
+    width: calc(100% / 5 - 10px);
+}
+
+.footer-col-titles{
+    margin-bottom: 15px;
+}
+
+.footer-ul{
+    font-size: 0.7rem;
+    list-style-type: none;
+}
+
+.footer-ul > li{
+    padding: 5px 0;
+}
+
+.footer-lang{
+    display: inline-block;
+    width: 60px;
+    font-size: 0.65rem;
+    color: grey;
+    padding: 20px 0;
+    border-top: 1px solid white;
+    margin-left: 134px;
 }
