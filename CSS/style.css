@@ -180,7 +180,7 @@ body{
     flex-direction: column;
     justify-content: flex-start;
     /* debug */
-    height: 800px;
+    height: 500px;
     background-color: chocolate;
 }
 
@@ -273,6 +273,10 @@ body{
     padding: 10px 5px;
     background-color: white;
     border: 1px solid grey;
+}
+
+.drop-busi-sect{
+    margin-bottom: 60px;
 }
 
 .drop-busi-row{
