@@ -5,11 +5,24 @@
     box-sizing: border-box;
 }
 
+/* DEBUG */
+.debug-img{
+    width: 100%;    
+    height: 350px;                                                                                                                                         
+    background-color: #0277BD;
+    /* display: inline-block; */
+}
+
 /* GENERAL */
 nav{
     /* debug */
     height: 50px;
     background-color: blanchedalmond;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
 }
 
 img{
@@ -64,4 +77,51 @@ body{
     width: 6%;
     margin: 15px 10px 15px 0;
     border: none;
+}
+
+.jumbo-btn{
+    font-size: 0.7rem;
+    color: white;
+    background-color: #6054eb;
+    width: 50%;
+    padding: 10px 5px;
+    border: none;
+}
+
+.jumbo-paragraph{
+    font-size: 0.85rem;
+    justify-content: flex-start;
+}
+
+.jumbotron{
+    background-color: #af4d61;
+}
+
+.jumbo-container{
+    margin: 0 auto;
+    width: 70%;
+    align-items:flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.jumbo-text-section{
+    width: 100%;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+}
+
+.jumbo-text-section > .jumbo-paragraph, .jumbo-btn{
+    margin: 20px 0px;
+}
+
+.jumbo-left-text{
+    width: 50%;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.icon{
+    font-size: 2.5rem;
+    /* justify-self: flex-end; */
 }
