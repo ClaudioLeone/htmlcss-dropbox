@@ -239,3 +239,26 @@ body{
 .bottom-col-sx{
     width: 60%;
 }
+
+.partner-title{
+    font-size: 0.9rem;
+}
+
+.partner-text{
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.partner-button{
+    width: 50%;
+    padding: 10px 5px;
+    background-color: white;
+    border: 1px solid grey;
+}
+
+.partner-debug-img{
+    width: 100%;    
+    height: 350px;                                                                                                                                         
+    background-color:darkcyan;
+}
