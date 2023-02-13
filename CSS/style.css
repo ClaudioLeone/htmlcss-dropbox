@@ -44,6 +44,10 @@ body{
 }
 
 /* CLASSES  */
+.title{
+    font-size: 4rem;
+}
+
 .left-nav{
     /* debug */
     height: 50px;
@@ -89,11 +93,11 @@ body{
     margin-bottom: 7rem;
 }
 
-.jumbo-btn{
+.buttons{
     font-size: 0.7rem;
     color: white;
     background-color: #6054eb;
-    width: 50%;
+    width: 40%;
     padding: 10px 5px;
     border: none;
 }
@@ -106,7 +110,7 @@ body{
 .jumbo-container{
     margin: 0 auto;
     width: 70%;
-    align-items:flex-start;
+    align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
 }
@@ -138,10 +142,62 @@ body{
 
 .plan-title{
     margin-bottom: 50px;
+    font-size: 3rem;
 }
 
 .plan-list{
     margin-bottom: 40px;
     gap: 50px;
     list-style-type: none;
+}
+
+.businessplan-row{
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.col{
+    width: calc(100% / 3 - 10px);
+    flex-direction: column;
+    justify-content: flex-start;
+    /* debug */
+    height: 800px;
+    background-color: chocolate;
+}
+
+.col-title{
+    background-color:darkorange;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.col-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.col-top-sect{
+    background-color: blueviolet;
+    font-size: 1.5rem;
+}
+
+.col-plan-name{
+    font-size: 2.5rem;
+}
+
+.plan-time{
+    color: lightgrey;
+}
+
+.col-cntr-sect{
+    background-color:deeppink;
+    display: flex;
+    flex-direction: column;
+}
+
+.col-bottom-sect{
+    background-color:darkcyan;
+    display: flex;
+    flex-direction: column;
 }
