@@ -26,6 +26,14 @@
     margin-bottom: 15px;
 }
 
+.enterprise-debug-img{
+    background-color: darkred;
+    border: 1px solid black;
+    width: 50%;
+    /* debug */
+    height: 228px;
+}
+
 /* GENERAL */
 nav{
     /* debug */
@@ -289,4 +297,28 @@ body{
     /* debug */
     /* height: 500px; */
     flex-direction: column;
+}
+
+/* .bottom-sect-container{
+
+} */
+
+.enterprises-quad{
+    width: calc(100% / 2);
+    flex-wrap: wrap;
+}
+
+.central-quad{
+    /* debug */
+    background-color: lightgrey;
+    width: calc(100% / 2);
+    flex-direction: column;
+}
+
+.under-logo-text{
+    margin-bottom: 20px;
+}
+
+.central-quad-text{
+    margin: 20px 0;
 }
