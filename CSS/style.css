@@ -1,5 +1,67 @@
+/* RESET */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* GENERAL */
+nav{
+    /* debug */
+    height: 50px;
+    background-color: blanchedalmond;
+}
+
+img{
+    width: 100%;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* UTILITY */
+.flex{
+    display: flex;
+}
+
+/* CLASSES  */
+.left-nav{
+    /* debug */
+    height: 50px;
+    width: 50%;
+    background-color: #4ef154;
+}
+
+.right-nav{
+    /* debug */
+    height: 50px;
+    width: 50%;
+    background-color: #4EC5F1;
+    justify-content: flex-end;
+}
+
+.logo{
+    /* debug */
+    display: inline-block;
+    height: 50px;
+    width: 10%;
+    background-color: #808080;
+}
+
+.list{
+    width: 30%;
+    list-style-type: none;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.top-btn{
+    font-size: 0.7rem;
+    color: white;
+    background-color: #6054eb;
+    width: 6%;
+    margin: 15px 10px 15px 0;
+    border: none;
 }
