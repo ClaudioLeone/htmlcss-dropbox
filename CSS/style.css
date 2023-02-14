@@ -39,6 +39,8 @@ nav{
     /* debug */
     height: 50px;
     background-color: blanchedalmond;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 h1{
@@ -59,22 +61,36 @@ footer{
 }
 
 /* UTILITY */
+.col-text-gap{
+    gap: 15px;
+}
 .flex{
     display: flex;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+
 .central-sect-container{
-    width: 50%;
+    width: 70%;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
 .title-size{
     font-size: 1.3rem;
+    margin-bottom: 40px;
+}
+
+.no-margin{
+    margin: 0;
 }
 
 /* CLASSES  */
 .title{
     font-size: 4rem;
+    margin: 40px 0;
 }
 
 .left-nav{
@@ -118,13 +134,15 @@ footer{
     width: 6%;
     margin: 15px 10px 15px 0;
     border: none;
+    text-align: center;
 }
 
 .jumbotron{
     /* debug */
     background-color: #af4d61;
 
-    margin-bottom: 7rem;
+    max-width: 1100px;
+    margin: 0 auto 7rem;
 }
 
 .buttons{
@@ -143,7 +161,8 @@ footer{
 
 .jumbo-container{
     margin: 0 auto;
-    width: 70%;
+    width: 80%;
+    max-width: 1100px;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
@@ -151,23 +170,26 @@ footer{
 
 .jumbo-text-section{
     width: 100%;
+    justify-content: space-between;
     /* flex-direction: column;
     flex-wrap: wrap; */
 }
 
 .jumbo-text-section > .jumbo-paragraph, .jumbo-btn{
     margin: 20px 0px;
+    
 }
 
 .jumbo-left-text{
     width: 50%;
     flex-direction: column;
     justify-content: flex-start;
+    gap: 20px;
 }
 
 .icon{
     font-size: 2.5rem;
-    /* justify-self: flex-end; */
+    margin-top: 80px;
 }
 
 /* .plan-title-section{
@@ -195,29 +217,25 @@ footer{
     width: calc(100% / 3 - 10px);
     flex-direction: column;
     justify-content: flex-start;
-    /* debug */
-    height: 500px;
-    background-color: chocolate;
+    border: 1px solid lightgrey;
 }
 
 .col-title{
-    /* debug */
-    background-color:darkorange;
-
     padding: 15px 0;
     text-align: center;
+    border-bottom: 
 }
 
 .col-container{
     width: 80%;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
 .col-top-sect{
-    /* debug */
-    background-color: blueviolet;
-
+    margin-top: 20px;
     font-size: 1.5rem;
+    line-height: 35px;
 }
 
 .col-plan-name{
@@ -229,17 +247,11 @@ footer{
 }
 
 .col-cntr-sect{
-    /* debug */
-    background-color:deeppink;
-
     display: flex;
     flex-direction: column;
 }
 
 .col-bottom-sect{
-    /* debug */
-    background-color:darkcyan;
-
     display: flex;
     flex-direction: column;
 }
@@ -309,6 +321,8 @@ footer{
 
 .bottom-sect-container{
     margin-top: 80px;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 .enterprises-quad{
@@ -333,10 +347,13 @@ footer{
 
 .trial-sect{
     background-color:cornflowerblue ;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 .trial-container{
     width: 60%;
+    max-width: 1100px;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto 50px;
@@ -356,6 +373,7 @@ footer{
 
 .questions-container{
     width: 60%;
+    max-width: 1100px;
     margin: 0 auto 50px;
 }
 
@@ -365,6 +383,7 @@ footer{
 
 .footer-container{
     width: 80%;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 50px 0;
     color: white;
@@ -389,11 +408,14 @@ footer{
 }
 
 .footer-lang{
-    display: inline-block;
-    width: 60px;
+    max-width: 1100px;
     font-size: 0.65rem;
     color: grey;
     padding: 20px 0;
-    border-top: 1px solid white;
-    margin-left: 134px;
+    margin: 0 auto;
+}
+
+.footer-hr{
+    width: 60px;
+    margin-bottom: 20px;
 }
