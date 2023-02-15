@@ -6,23 +6,23 @@
     font-size: 0.84rem;
 }
 
-/* DEBUG */
-.debug-img{
-    width: 100%;    
-    height: 350px;                                                                                                                                         
-    background-color: #0277BD;
-    /* display: inline-block; */
+img{
+    width: 100%;
 }
 
-.partner-debug-img{
-    width: 100%;    
-    height: 350px;                                                                                                                                         
-    background-color:darkcyan;
+/* DEBUG */
+.debug-img{
+    width: 100%;
+    height: 350px;
+}
+
+.partner-img-div{
+    width: 50%;
 }
 
 .col-debug-img{
     width: 100%;    
-    height: 208px;                                                                                                                                         
+    height: 208px;
     background-color:salmon;
     margin-bottom: 10px;
 }
@@ -108,7 +108,7 @@ footer{
 
 /* CLASSES  */
 .title{
-    font-size: 4rem;
+    font-size: 5rem;
     margin: 100px 0 30px;
 }
 
@@ -290,7 +290,7 @@ footer{
 .businessplan-2ndrow{
     width: 100%;
     justify-content: center;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
     border: 1px solid lightgrey;
 }
 
@@ -307,8 +307,12 @@ footer{
     margin-top: 25px;
 }
 
+.bottom-col-dx > a{
+    margin-top: 5px;
+}
+
 .partner-sect{
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 .titles{
@@ -321,7 +325,7 @@ footer{
 }
 
 .partner-text{
-    width: 50%;
+    width: 30%;
     flex-direction: column;
     justify-content: flex-start;
     gap: 20px;
@@ -332,6 +336,7 @@ footer{
     padding: 5px 5px;
     background-color: white;
     border: 1px solid grey;
+    color: black;
     text-align: center;
     text-decoration: none;
 }
