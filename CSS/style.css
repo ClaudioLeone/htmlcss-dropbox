@@ -24,7 +24,7 @@
     width: 100%;    
     height: 208px;                                                                                                                                         
     background-color:salmon;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .enterprise-debug-img{
@@ -319,6 +319,11 @@ footer{
 
 .titles{
     font-size: 1.1rem;
+}
+
+.drop-busi-col > p{
+    margin-top: 15px;
+    margin-bottom: 50px;
 }
 
 .partner-text{
