@@ -157,8 +157,8 @@ footer{
     text-align: center;
     font-size: 0.7rem;
     color: white;
-    background-color: #6054eb;
-    padding: 10px 5px;
+    background-color: #476fea;
+    padding: 5px 30px;
     border: none;
     text-decoration: none;
     display: inline-block;
@@ -295,8 +295,17 @@ footer{
     border: 1px solid lightgrey;
 }
 
+.bottom-col{
+    margin: 20px 20px;
+    justify-content: space-between;
+}
+
 .bottom-col-sx{
-    width: 60%;
+    width: 70%;
+}
+
+.bottom-col-sx > p{
+    margin-top: 25px;
 }
 
 .partner-sect{
