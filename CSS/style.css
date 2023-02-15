@@ -37,8 +37,10 @@
 
 /* GENERAL */
 nav{
-    max-width: 1100px;
-    margin: 0 auto;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    border-bottom: 1px solid #0000000d;
 }
 
 h1{
@@ -79,7 +81,7 @@ footer{
 
 .title-size{
     font-size: 2rem;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .no-margin{
@@ -97,7 +99,7 @@ footer{
 
 .hr{
     width: 60px;
-    border: 1px solid lightgrey;
+    border: 1px solid #d3d3d35e;
 }
 
 .blue-btn{
@@ -107,7 +109,7 @@ footer{
 /* CLASSES  */
 .title{
     font-size: 4rem;
-    margin: 40px 0;
+    margin: 100px 0 30px;
 }
 
 .left-nav{
@@ -152,7 +154,6 @@ footer{
 }
 
 .jumbotron{
-    max-width: 1100px;
     margin: 0 auto 7rem;
     background-color: #b6cfe7;
 }
@@ -170,13 +171,8 @@ footer{
 }
 
 .jumbo-btn{
-    width: 50%
+    width: 60%
 }
-
-/* .jumbo-paragraph{
-    font-size: 0.85rem;
-    justify-content: flex-start;
-} */
 
 .jumbo-container{
     margin: 0 auto;
@@ -206,7 +202,7 @@ footer{
 
 .icon{
     font-size: 2.5rem;
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 .plan-list{
@@ -237,6 +233,9 @@ footer{
 
 .card-ul > li{
     display: flex;
+    margin: 15px 0;
+    list-style-type: none;
+    align-items: baseline;
 }
 
 .bottom-card-ul > li{
@@ -266,11 +265,6 @@ footer{
 
 .col-plan-name{
     font-size: 1.8rem;
-}
-
-.card-ul > li{
-    list-style-type: none;
-    margin: 15px 0;
 }
 
 .check{
@@ -356,9 +350,13 @@ footer{
     flex-direction: column;
 }
 
+.drop-busi-totusers{
+    margin-bottom: 110px;
+    width: 60%
+}
+
 .bottom-sect-container{
     margin-top: 80px;
-    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -370,6 +368,8 @@ footer{
 .central-quad{
     width: calc(100% / 2);
     flex-direction: column;
+    padding: 50px;
+    background-color: #f1f1f1;
 }
 
 .under-logo-text{
@@ -382,7 +382,6 @@ footer{
 
 .trial-sect{
     background-color:cornflowerblue ;
-    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -395,6 +394,20 @@ footer{
     padding: 50px 0;
 }
 
+.trial-container > h2{
+    width: 50%;
+}
+
+.trial-container > span{
+    margin-bottom: 30px;
+}
+
+.trial-container > span > .buttons{
+    background-color: white;
+    border: 1px solid #0000000d;
+    color: black;
+}
+
 .trial-btn{
     background-color: white;
     border: 1px solid grey;
@@ -404,6 +417,11 @@ footer{
 .question-row{
     justify-content: space-between;
     align-items: center;
+}
+
+.question-row > i{
+    margin-right: 20px;
+    font-size: 0.65rem;
 }
 
 .questions-container{
@@ -450,7 +468,12 @@ footer{
     margin: 0 auto;
 }
 
+.footer-lang > span{
+    margin: 0 5px;
+}
+
 .footer-hr{
-    width: 60px;
+    width: 90px;
     margin-bottom: 20px;
+    border: 1px inset #646464;
 }
