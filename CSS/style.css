@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 0.84rem;
 }
 
 /* DEBUG */
@@ -36,16 +37,13 @@
 
 /* GENERAL */
 nav{
-    /* debug */
-    height: 50px;
-    background-color: blanchedalmond;
     max-width: 1100px;
     margin: 0 auto;
 }
 
 h1{
     font-size: 3rem;
-    text-align: center;
+    text-align: left;
 }
 
 img{
@@ -73,18 +71,31 @@ footer{
 }
 
 .central-sect-container{
-    width: 70%;
+    width: 55%;
     max-width: 1100px;
     margin: 0 auto;
 }
 
 .title-size{
-    font-size: 1.3rem;
+    font-size: 2rem;
     margin-bottom: 40px;
 }
 
 .no-margin{
     margin: 0;
+}
+
+.margin-top{
+    margin-top: 25px;
+}
+
+.hr{
+    width: 60px;
+    border: 1px solid lightgrey;
+}
+
+.blue-btn{
+    background-color: cornflowerblue;
 }
 
 /* CLASSES  */
@@ -94,64 +105,66 @@ footer{
 }
 
 .left-nav{
-    /* debug */
-    background-color: #4ef154;
-    height: 50px;
-
     width: 50%;
 }
 
 .right-nav{
-    /* debug */
-    background-color: #4EC5F1;
-    height: 50px;
-
     width: 50%;
     justify-content: flex-end;
 }
 
 .logo{
-    /* debug */
-    background-color: #808080;
-    height: 50px;
-
     display: inline-block;
-    width: 10%;
+    width: 15%;
+    margin: auto 0 auto 10px;
 }
 
 .list{
-    width: 30%;
+    width: 50%;
     list-style-type: none;
     text-decoration: none;
     align-items: center;
     justify-content: space-evenly;
+    font-size: 0.6rem;
+}
+
+.list > li > a{
+    text-decoration: none;
+    color: black;
 }
 
 .top-btn{
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     color: white;
     background-color: #6054eb;
     width: 6%;
     margin: 15px 10px 15px 0;
+    padding: 5px;
     border: none;
     text-align: center;
+    text-decoration: none;
 }
 
 .jumbotron{
-    /* debug */
-    background-color: #af4d61;
-
     max-width: 1100px;
     margin: 0 auto 7rem;
+    background-color: #b6cfe7;
 }
 
 .buttons{
+    width: 100%;
+    text-align: center;
     font-size: 0.7rem;
     color: white;
     background-color: #6054eb;
-    width: 70%;
     padding: 10px 5px;
     border: none;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.jumbo-btn{
+    width: 50%
 }
 
 .jumbo-paragraph{
@@ -171,8 +184,6 @@ footer{
 .jumbo-text-section{
     width: 100%;
     justify-content: space-between;
-    /* flex-direction: column;
-    flex-wrap: wrap; */
 }
 
 .jumbo-text-section > .jumbo-paragraph, .jumbo-btn{
@@ -192,15 +203,6 @@ footer{
     margin-top: 80px;
 }
 
-/* .plan-title-section{
-
-} */
-
-/* .plan-title{
-    margin-bottom: 30px;
-    font-size: 1.8rem;
-} */
-
 .plan-list{
     margin-bottom: 40px;
     gap: 50px;
@@ -214,22 +216,24 @@ footer{
 }
 
 .col{
-    width: calc(100% / 3 - 10px);
+    width: calc(100% / 3 - 40px);
+    height: 750px;
     flex-direction: column;
     justify-content: flex-start;
     border: 1px solid lightgrey;
 }
 
 .col-title{
+    font-size: 1rem;
     padding: 15px 0;
     text-align: center;
-    border-bottom: 
+    border-bottom: 1px solid lightgrey;
 }
 
 .col-container{
     width: 80%;
     max-width: 1100px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .col-top-sect{
@@ -239,16 +243,22 @@ footer{
 }
 
 .col-plan-name{
-    font-size: 1.1rem;
+    font-size: 1.8rem;
+}
+
+.card-ul > li{
+    list-style-type: none;
+    margin: 15px 0;
 }
 
 .plan-time{
-    color: lightgrey;
+    color: grey;
 }
 
 .col-cntr-sect{
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 .col-bottom-sect{
@@ -257,25 +267,14 @@ footer{
 }
 
 .businessplan-2ndrow{
-    /* debug */
-    background-color: lime;
     width: 100%;
     justify-content: center;
     margin-bottom: 60px;
 }
 
 .bottom-col-title{
-    /* debug */
-    background-color:darkorange;
-
     padding: 15px 0;
     text-align: center;
-}
-
-.bottom-col{
-    /* debug */
-    /* background-color:darkorange; */
-
 }
 
 .bottom-col-sx{
@@ -314,8 +313,6 @@ footer{
 
 .drop-busi-col{
     width: calc(100% / 3 - 15px);
-    /* debug */
-    /* height: 500px; */
     flex-direction: column;
 }
 
@@ -331,8 +328,6 @@ footer{
 }
 
 .central-quad{
-    /* debug */
-    background-color: lightgrey;
     width: calc(100% / 2);
     flex-direction: column;
 }
